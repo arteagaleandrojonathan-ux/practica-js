@@ -6,14 +6,30 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Hola</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Corrupti aperiam praesentium dolores soluta voluptatum quo
-       neque libero sequi 
-      temporibus illum! Sed 
-      sunt nulla ex aliquam veniam veritatis
-       doloribus eligendi magnam.
-    </p>
+  <script src="./js/mensaje-consola.js"></script>
+
+  <script>
+    console.log('Mensaje convencional')
+    console.log('Primer mesnaje', 'segundo mensaje')
+    
+    let nombres = 'jhon'
+    console.log('Bienvenido ', nombres)
+    
+    //invocar a mi funcion
+
+    mostrarEnConsola()
+    
+    console.error('Algo no ha funcionado')
+    console.warn("Ten cuidado con lo que haces")
+    
+    console.group()
+    console.log('Arequipa')
+    console.log('Ica')
+    console.log('Lima')
+    console.log('Tacna')
+    console.groupEnd()
+    
+    </script>
+    
 </body>
 </html>
